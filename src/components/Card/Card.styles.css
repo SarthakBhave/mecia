@@ -1,0 +1,28 @@
+.card {
+    background-color: #424242;
+    border-radius: 8px;
+    padding: 16px;
+    transition: 0.1s ease-out transform;
+    min-height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.card > img {
+    border-radius: 50%;
+    background-color: #303030;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+h5 {
+    opacity: 0.7;
+    padding-top: 10px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    background-color: #525252;   
+}
