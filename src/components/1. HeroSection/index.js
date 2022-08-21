@@ -9,7 +9,7 @@ import {
   ArrowRight,
 } from "./HeroElements";
 import { Button } from "../ButtonElements";
-import Logo from "../Logo";
+import Typo from "../typo";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -22,7 +22,7 @@ const HeroSection = () => {
     <HeroContainer id="home">
       <HeroContent>
         <HeroH1>
-          <Logo size={150} />
+          <Typo size={150} />
         </HeroH1>
         <HeroP>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed

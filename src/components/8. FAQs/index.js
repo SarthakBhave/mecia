@@ -1,15 +1,15 @@
-import React from 'react';
-import { Container, HeadingH1, Wrapper } from "../Commons"
+import React from "react";
+import { Container1, HeadingH1, Wrapper } from "../Commons";
 
 const FAQs = () => {
-    return (
-        <>
-            <Container id="faqs">
-                <HeadingH1>FAQs</HeadingH1>
-                <Wrapper />
-            </Container>
-        </>
-    )
-}
+  return (
+    <>
+      <Container1 id="faqs">
+        <HeadingH1>FAQs</HeadingH1>
+        <Wrapper />
+      </Container1>
+    </>
+  );
+};
 
 export default FAQs;
