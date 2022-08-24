@@ -7,7 +7,10 @@ const ActualLogo = styled.img`
 
 const Logo = ({ size }) => {
   return (
-    <ActualLogo size={size} src={require("../../images/Group.svg").default} />
+    <ActualLogo
+      size={size}
+      src={require("../../images/LogoWhite.svg").default}
+    />
   );
 };
 
