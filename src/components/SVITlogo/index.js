@@ -2,19 +2,19 @@ import React from "react";
 import styled from "styled-components";
 
 const ActualLogo = styled.img`
-  height: ${({ size }) => (size ? `${size}px` : "72px")};
+  height: ${({ size }) => (size ? `${size}px` : "30px")};
   position: relative;
-  right: 100px;
+  right: 4px;
   top: 5px;
 `;
 
-const Logo = ({ size }) => {
+const Calender = ({ size }) => {
   return (
     <ActualLogo
       size={size}
-      src={require("../../images/LogoWhite.svg").default}
+      src={require("../../images/calendar.svg").default}
     />
   );
 };
 
-export default Logo;
+export default Calender;
