@@ -5,9 +5,9 @@ import {
   NavbarContainer,
   NavLogo,
   MobileIcon,
-  NavMenu,
-  NavItem,
-  NavLinks,
+  // NavMenu,
+  // NavItem,
+  // NavLinks,
 } from "./NavbarElements";
 import Logo from "../Logo";
 import { animateScroll as scroll } from "react-scroll";
